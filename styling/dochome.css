@@ -1,0 +1,61 @@
+body{
+    background-color: #9599e2;
+
+}
+
+.navbarItems{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;;
+    background-color: bisque;
+}
+
+#idcontainer{
+    border-radius: 25px;
+    padding: 10px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+}
+
+.navbar .navbarItems a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.parentgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+#schedule{
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+}
+
+#alerts{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+}
+
+#finances{
+    display: flex;
+    justify-content: center;
+}
+
+#showpatients{
+    display: flex;;
+    justify-content: center;
+}
